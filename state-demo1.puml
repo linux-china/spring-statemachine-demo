@@ -1,0 +1,11 @@
+@startuml
+
+[*] --> Started: TurnOn Event
+
+
+Started -> Halted: TurnOff Event
+
+Halted --> [*]
+
+
+@enduml
