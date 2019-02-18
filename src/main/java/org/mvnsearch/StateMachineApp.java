@@ -17,19 +17,19 @@ public class StateMachineApp {
 
         builder.configureStates()
                 .withStates()
-                .initial(States.STATE1)
+                .initial(States.PowerON)
                 .states(EnumSet.allOf(States.class));
 
         builder.configureTransitions()
                 // transition1
                 .withExternal()
-                .source(States.STATE1).target(States.STATE2)
-                .event(Events.EVENT1)
+                .source(States.PowerON).target(States.Started)
+                .event(Events.TurnOn)
                 .and()
                 //transition1
                 .withExternal()
-                .source(States.STATE2).target(States.STATE1)
-                .event(Events.EVENT2);
+                .source(States.Started).target(States.Halted)
+                .event(Events.TurnOff);
 
         return builder.build();
     }

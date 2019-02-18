@@ -6,5 +6,6 @@ package org.mvnsearch;
  * @author linux_china
  */
 public enum Events {
-    EVENT1, EVENT2
+    TurnOn,
+    TurnOff
 }

@@ -6,5 +6,7 @@ package org.mvnsearch;
  * @author linux_china
  */
 public enum States {
-    STATE1, STATE2
+    PowerON,
+    Started,
+    Halted
 }
