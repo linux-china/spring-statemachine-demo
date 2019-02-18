@@ -18,9 +18,9 @@ public class StateMachineTest {
     public void testStateMachine() throws Exception {
         StateMachine<States, Events> stateMachine = StateMachineApp.buildMachine();
         stateMachine.start();
-        stateMachine.sendEvent(Events.EVENT1);
-        Assertions.assertEquals(stateMachine.getState().getId(), States.STATE2);
-        stateMachine.sendEvent(Events.EVENT2);
-        Assertions.assertEquals(stateMachine.getState().getId(), States.STATE1);
+        stateMachine.sendEvent(Events.TurnOn);
+        Assertions.assertEquals(stateMachine.getState().getId(), States.Started);
+        stateMachine.sendEvent(Events.TurnOff);
+        Assertions.assertEquals(stateMachine.getState().getId(), States.Halted);
     }
 }
