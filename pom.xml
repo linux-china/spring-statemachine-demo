@@ -12,9 +12,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>5.1.5.RELEASE</spring.version>
-        <spring-statemachine.version>2.1.1.RELEASE</spring-statemachine.version>
-        <junit5.version>5.4.1</junit5.version>
+        <spring.version>5.2.0.RC1</spring.version>
+        <spring-statemachine.version>3.0.0.M1</spring-statemachine.version>
+        <junit5.version>5.5.1</junit5.version>
     </properties>
 
     <dependencies>
@@ -77,4 +77,15 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/libs-milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
