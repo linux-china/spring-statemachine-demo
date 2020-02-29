@@ -18,5 +18,6 @@ Spring Statemachine is a framework for application developers to use state machi
 * Spring State Machine: http://projects.spring.io/spring-statemachine/
 * 状态机： https://baike.baidu.com/item/%E7%8A%B6%E6%80%81%E6%9C%BA/6548513
 * 有限状态机实现-状态机介绍: https://www.jianshu.com/p/d48e0d565618
+* 有限状态机通常在什么地方被用到？https://www.zhihu.com/question/31634405
 * State Diagram: http://plantuml.com/en/state-diagram
 * A Guide to the Spring State Machine Project: https://www.baeldung.com/spring-state-machine
