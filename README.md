@@ -21,3 +21,7 @@ Spring Statemachine is a framework for application developers to use state machi
 * 有限状态机通常在什么地方被用到？https://www.zhihu.com/question/31634405
 * State Diagram: http://plantuml.com/en/state-diagram
 * A Guide to the Spring State Machine Project: https://www.baeldung.com/spring-state-machine
+* Reactive State Machines: https://ian.bebbs.co.uk/posts/ReactiveStateMachines
+* Reactive State Machines & Statecharts - Slides: https://slides.com/davidkhourshid/reactive-statecharts
+* RxJS state machine: https://github.com/logicalguess/rx-state-machine
+* RxFsm is a hierarchical finite state machine (FSM) library built on top of RxJava: https://github.com/furuholm/RxFsm
