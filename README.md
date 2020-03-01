@@ -28,3 +28,7 @@ Spring Statemachine is a framework for application developers to use state machi
 * RxFsm is a hierarchical finite state machine (FSM) library built on top of RxJava: https://github.com/furuholm/RxFsm
 * State Machine Open Source Projects: https://awesomeopensource.com/projects/state-machine
 * Awesome FSM: https://github.com/soixantecircuits/awesome-fsm
+* Advanced state machines in Java: https://github.com/UnquietCode/JState
+* A Kotlin DSL for finite state machine: https://github.com/Tinder/StateMachine
+* Implementing Simple State Machines with Java Enums: https://www.baeldung.com/java-enum-simple-state-machine
+* Stateless4j: Lightweight Java State Machine https://github.com/stateless4j/stateless4j
