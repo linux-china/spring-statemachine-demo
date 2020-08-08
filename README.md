@@ -32,3 +32,4 @@ Spring Statemachine is a framework for application developers to use state machi
 * A Kotlin DSL for finite state machine: https://github.com/Tinder/StateMachine
 * Implementing Simple State Machines with Java Enums: https://www.baeldung.com/java-enum-simple-state-machine
 * Stateless4j: Lightweight Java State Machine https://github.com/stateless4j/stateless4j
+* Tinder Statemachine: A Kotlin DSL for finite state machine: https://github.com/Tinder/StateMachine
