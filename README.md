@@ -13,6 +13,10 @@ Spring Statemachine is a framework for application developers to use state machi
 
 ![State Machine](http://projects.spring.io/spring-statemachine/img/statechart0.png)
 
+### Polyglot SDK
+
+* XState: state machines and statecharts for the modern web https://github.com/davidkpiano/xstate
+
 ### References
 
 * Spring Statemachine Goes Reactive with 3.0.0.M1: https://spring.io/blog/2019/08/08/spring-statemachine-goes-reactive-with-3-0-0-m1
