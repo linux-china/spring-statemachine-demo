@@ -21,6 +21,8 @@ Spring Statemachine is a framework for application developers to use state machi
 
 * Spring Statemachine Goes Reactive with 3.0.0.M1: https://spring.io/blog/2019/08/08/spring-statemachine-goes-reactive-with-3-0-0-m1
 * Spring State Machine: http://projects.spring.io/spring-statemachine/
+* Spring State Machine Reference: https://docs.spring.io/spring-statemachine/docs/3.0.0/reference/
+* Spring State Machine API: https://docs.spring.io/spring-statemachine/docs/3.0.0/api/
 * 状态机： https://baike.baidu.com/item/%E7%8A%B6%E6%80%81%E6%9C%BA/6548513
 * 有限状态机实现-状态机介绍: https://www.jianshu.com/p/d48e0d565618
 * 有限状态机通常在什么地方被用到？https://www.zhihu.com/question/31634405
