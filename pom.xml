@@ -12,9 +12,12 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>5.3.5</spring.version>
-        <spring-statemachine.version>3.0.0</spring-statemachine.version>
-        <junit5.version>5.7.1</junit5.version>
+        <java.version>21</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <spring.version>6.1.0</spring.version>
+        <spring-statemachine.version>4.0.0</spring-statemachine.version>
+        <junit5.version>5.10.1</junit5.version>
     </properties>
 
     <dependencies>
@@ -68,10 +71,8 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.10.0</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
                     <parameters>true</parameters>
                 </configuration>
             </plugin>
